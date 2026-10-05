@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="mx-auto flex min-h-dvh max-w-5xl items-center px-6 pt-16"
+        className="mx-auto flex min-h-dvh max-w-5xl items-center px-6 pt-28 pb-12 md:pt-16 md:pb-0"
     >
       <div className="flex w-full flex-col-reverse items-center gap-10 md:flex-row md:justify-start md:gap-16">
         <div className="w-full md:max-w-xl">

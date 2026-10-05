@@ -19,7 +19,7 @@ import wro from '../assets/experience/wro.png'
 import amadeus from '../assets/experience/amadeus.jpg'
 import conservatorio from '../assets/experience/conservatorio.jpg'
 import trinity from '../assets/experience/trinity.png'
-import foto from '../assets/michael.jpeg'
+import foto from '../assets/michael.webp'
 
 export const profile = {
     name: "Michael Usai",
