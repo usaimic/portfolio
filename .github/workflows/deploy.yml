@@ -20,6 +20,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: portfolio
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -29,6 +32,7 @@ jobs:
         with:
           node-version: lts/*
           cache: npm
+          cache-dependency-path: portfolio/package-lock.json
 
       - name: Installa le dipendenze
         run: npm ci
@@ -42,7 +46,7 @@ jobs:
       - name: Carica il sito
         uses: actions/upload-pages-artifact@v5
         with:
-          path: ./dist
+          path: ./portfolio/dist
 
       - name: Pubblica
         id: deployment
