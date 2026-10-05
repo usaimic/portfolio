@@ -30,7 +30,7 @@ export const profile = {
     links: {
         linkedin: "https://www.linkedin.com/in/michael-usai-321626260",   
         github: "https://github.com/usaimic", 
-        cv: "michael_usai_cv.pdf",
+        cv: import.meta.env.BASE_URL + "michael_usai_cv.pdf",
     },
     photo: foto,
     photoAlt: "Foto di Michael Usai",
