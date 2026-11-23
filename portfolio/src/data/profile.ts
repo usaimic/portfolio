@@ -24,8 +24,8 @@ import foto from '../assets/michael.webp'
 export const profile = {
     name: "Michael Usai",
     age: 22,
-    title: "Programmatore",
-    email: "usai.michael265@.com",
+    title: "Sviluppatore software Junior",
+    email: "usai.michael265@gmail.com",
     summary: "",    //TODO 
     links: {
         linkedin: "https://www.linkedin.com/in/michael-usai-321626260",   
@@ -35,7 +35,7 @@ export const profile = {
     photo: foto,
     photoAlt: "Foto di Michael Usai",
     openToWork: true,
-    actuallyWorking: true,
+    actuallyWorking: false,
 }
 
 export const experiences: Experience[] = [
@@ -43,7 +43,7 @@ export const experiences: Experience[] = [
     role: 'Operatore di trasporto',
     company: 'Bartolini BRT',
     location: 'Pescara, Italia',
-    period: 'Set 2026 – oggi',
+    period: 'Set 2026 – Ott 2026',
     highlights: [
       'Carico e scarico dei mezzi',
       'Controllo integrità pacchi',
@@ -55,7 +55,7 @@ export const experiences: Experience[] = [
     image: brt,
     imageAlt: 'Logo di Bartolini BRT',
     imageFit: 'contain',
-    current: true
+    current: false
   },
   {
     role: 'Tirocinio universitario – Sviluppo software',
@@ -72,14 +72,26 @@ export const experiences: Experience[] = [
   },
   {
     role: 'Docente/Formatore',
-    company: 'Campus Store',
-    location: 'Altamura (BA), Italia',
-    period: '22 – 24 set 2025',
-    description: 'Corso di robotica per la scuola primaria.',
+    company: 'CampusStore',
+    location: 'Bassano del Grappa (TV), Italia',
+    period: '2025/2026',
+    description: 'Formazione in materia di tecnologie didattiche innovative.',
     technologies: [],
     featured: true,
     image: campusStore,
     imageAlt: 'Logo di Campus Store',
+    imageFit: 'contain',
+  },
+  {
+    role: 'Docente/Formatore',
+    company: 'Scuola di Robotica',
+    location: 'Genova (GE), Italia',
+    period: '2025/2026',
+    description: 'Formazione in materia di tecnologie didattiche innovative.',
+    technologies: [],
+    featured: true,
+    image: scuolaDiRobotica,
+    imageAlt: 'Logo di Scuola di Robotica',
     imageFit: 'contain',
   },
   {
@@ -106,30 +118,6 @@ export const experiences: Experience[] = [
     imageFit: 'contain',
   },
   {
-    role: 'Docente/Formatore',
-    company: 'Scuola di Robotica',
-    location: 'Torre dei Passeri (PE), Italia',
-    period: '26 mar 2025',
-    description: 'Corso di robotica per la scuola primaria.',
-    technologies: [],
-    featured: true,
-    image: scuolaDiRobotica,
-    imageAlt: 'Logo di Scuola di Robotica',
-    imageFit: 'contain',
-  },
-  {
-    role: 'Docente/Formatore',
-    company: 'Scuola di Robotica',
-    location: 'Spoltore (PE), Italia',
-    period: '3 – 15 feb 2025',
-    description: 'Corso di robotica per la scuola primaria.',
-    technologies: [],
-    featured: true,
-    image: scuolaDiRobotica,
-    imageAlt: 'Logo di Scuola di Robotica',
-    imageFit: 'contain',
-  },
-  {
     role: 'Consegne a domicilio',
     company: 'Glovo',
     location: 'Pescara, Italia',
@@ -144,7 +132,7 @@ export const experiences: Experience[] = [
     image: glovo,
     imageAlt: 'Logo di Glovo',
     imageFit: 'contain',
-    current: true
+    current: false
   },
   {
     role: 'Tutor scolastico',
@@ -176,7 +164,7 @@ export const education: Education[] = [
     institution: 'Alma Mater Studiorum – Università di Bologna',
     location: 'Bologna, Italia',
     period: 'Set 2023 – Ott 2026',
-    grade: 'In corso',
+    grade: '100/110',
     url: 'https://www.unibo.it/it',
     image: unibo,
     imageAlt: 'Logo di Alma Mater Studiorum – Università di Bologna',

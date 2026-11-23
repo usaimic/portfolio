@@ -12,7 +12,7 @@ export default function Experience() {
       <ol className="relative border-l-2 border-line">
         {featured.map((e) => {
           const hasExpandableContent = Boolean(
-            e.highlights?.length || e.link || e.technologies?.length
+            e.description || e.highlights?.length || e.link || e.technologies?.length
           )
 
           return (
